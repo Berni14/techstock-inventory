@@ -1,0 +1,26 @@
+# Compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Carpetas de construcción
+bin/
+out/
+target/
+
+# Configuración de IntelliJ IDEA
+.idea/
+*.iml
+
+# Configuración de Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de datos locales (tu base de datos de objetos)
+*.dat
