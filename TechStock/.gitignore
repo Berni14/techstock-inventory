@@ -1,26 +1,19 @@
-# Compilados de Java
-*.class
-*.jar
-*.war
-*.ear
+#  TechStock Inventory 
 
-# Carpetas de construcción
-bin/
-out/
-target/
+Sistema de gestión de inventario profesional desarrollado en Java. Este proyecto demuestra el uso de arquitectura en capas (Layered Architecture) y persistencia de datos.
 
-# Configuración de IntelliJ IDEA
-.idea/
-*.iml
+##  Características
+- **CRUD Completo:** Gestión total de productos.
+- **Persistencia Binaria:** Los datos se guardan automáticamente en archivos `.dat`.
+- **Lógica de Negocio:** Validación de IDs únicos y cálculo de valor de almacén.
+- **Clean Code:** Separación estricta entre lógica, datos e interfaz.
 
-# Configuración de Eclipse
-.metadata/
-.classpath
-.project
-.settings/
+##  Tecnologías
+- ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) (JDK 17+)
+- ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
 
-# Configuración de VS Code
-.vscode/
-
-# Archivos de datos locales (tu base de datos de objetos)
-*.dat
+##  Estructura del Proyecto
+- `model`: Objetos de datos (POJOs).
+- `repository`: Capa de acceso a datos (Interfaces y Ficheros).
+- `service`: Lógica de negocio y reglas del sistema.
+- `main`: Interfaz de usuario por consola.
